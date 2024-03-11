@@ -51,7 +51,8 @@
   }
 
   .location__list {
-    gap: 1rem;
+    gap: 0.5rem;
+    padding: 0;
   }
 
   .location__item {

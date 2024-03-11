@@ -21,7 +21,7 @@
   position: absolute;
   top: 15%;
   left: 0;
-  width: 30%;
+  width: 40%;
   padding: 0.3rem 0.5rem;
   display: flex;
   align-items: center;
@@ -34,6 +34,7 @@
   width: 1rem;
   aspect-ratio: 1;
   border-radius: 50%;
+  background-color: #aaa;
 }
 
 .Alive {
@@ -88,23 +89,15 @@
   }
 
   .resident__status {
-    width: 50%;
+    width: 60%;
     padding: 0.1rem 0.3rem;
+    bottom: 0;
+    top: 80%;
+    opacity: 80%;
   }
 
   .status__circle {
     width: 0.7rem;
-  }
-
-  .Alive {
-    background-color: rgb(19, 193, 19);
-  }
-  .Dead {
-    background-color: red;
-  }
-
-  .unknown {
-    background-color: #aaa;
   }
 
   .resident__body {
