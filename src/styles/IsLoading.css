@@ -1,0 +1,18 @@
+.isLoading {
+  width: 100%;
+  padding-top: 6rem;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+.isLoading__image {
+  width: 20%;
+  margin: 0 auto;
+  box-shadow: 0rem 0rem 0.5rem greenyellow;
+}
+
+@media (max-width: 600px) {
+  .isLoading__image {
+    width: 80%;
+  }
+}

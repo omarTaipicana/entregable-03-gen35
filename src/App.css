@@ -1,0 +1,20 @@
+.app{
+    background-color: #073138;
+    color: white;
+    min-height: 100vh;
+}
+
+.container-resident {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.header {
+    padding: 0.7rem;
+}
+
+.header__image{
+    box-shadow: 0px 5px 30px rgb(30, 228, 46);
+}
